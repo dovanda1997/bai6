@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .parent{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    position: relative;
+}
+.chill{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    position: absolute;
+}
+.nephew{
+
+}
+.fa-solid .fas {
+    font-weight: 500;
+} */
+nav{
+    width: 90%;
+    border: 1px solid black;
+    margin: 0px auto;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: rgb(55, 65, 71);
+}
+nav ul li{
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: white;
+
+}
+li:hover{
+    background-color: rgb(7, 172, 236);
+}
+.parent{
+    position: relative;
+}
+.chill{
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.parent:hover .chill{
+    display: flex;
+   
+  
+}
+
